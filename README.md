@@ -43,6 +43,7 @@ Le projet vise à développer une application web permettant l’envoi d’email
 - Gestion des erreurs et retours JSON
 
 **Architecture :**  
+---
 Frontend (HTML/CSS/JS)
 |
 |--- AJAX/Fetch --->
@@ -52,4 +53,5 @@ Backend (Flask/Python + SMTP)
 |--- SMTP Server (Gmail, Outlook...) --->
 |
 Destinataire Email
+---
 
